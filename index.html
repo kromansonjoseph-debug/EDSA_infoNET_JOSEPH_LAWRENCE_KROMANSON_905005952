@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDSA-infoNET - Home</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background-color: #ffffff; color: #1e293b; line-height: 1.6; padding-top: 70px; }
+    a { text-decoration: none; color: inherit; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+    /* FIXED NAVBAR */
+    header { position: fixed; top: 0; left: 0; right: 0; height: 70px; background-color: #000000; color: #ffffff; display: flex; justify-content: space-between; align-items: center; padding: 0 5%; z-index: 1000; }
+    .brand-logo { font-size: 1.2rem; font-weight: 800; color: #ffffff; text-transform: uppercase; letter-spacing: 1px; }
+    .nav-links { display: flex; gap: 12px; list-style: none; }
+    .nav-links a { font-size: 0.85rem; font-weight: 600; padding: 6px 12px; border-radius: 4px; color: #d1d5db; }
+    .nav-links a:hover, .nav-links a.active { color: #ffffff; background-color: #1d4ed8; }
+
+    /* HERO SECTION */
+    .hero-section { text-align: center; padding: 30px 10px; margin-bottom: 25px; }
+    .hero-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 12px; color: #000000; text-transform: uppercase; }
+    .hero-desc { max-width: 750px; margin: 0 auto 20px auto; font-size: 0.95rem; color: #334155; }
+    .btn-black { display: inline-block; background: #000000; color: #ffffff; padding: 10px 30px; font-weight: 700; font-size: 0.9rem; border: none; cursor: pointer; text-transform: uppercase; text-align: center; }
+    .btn-black:hover { background: #1d4ed8; }
+
+    /* RECENT PROGRESS BANNER */
+    .banner-dark { background: #475569; color: #ffffff; padding: 20px; text-align: center; margin-bottom: 25px; }
+    .banner-dark h2 { font-size: 1.3rem; font-weight: 800; text-transform: uppercase; }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-bottom: 35px; align-items: center; }
+    .list-numbered { padding-left: 20px; font-size: 0.88rem; color: #334155; }
+    .list-numbered li { margin-bottom: 12px; }
+
+    .img-box { width: 100%; height: 180px; background: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 4px; overflow: hidden; }
+    .img-box img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* WHAT WE DO */
+    .section-header { text-align: center; font-size: 1.2rem; font-weight: 800; text-transform: uppercase; margin-bottom: 20px; color: #000000; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 35px; text-align: center; }
+    .card-title { font-weight: 800; font-size: 1rem; margin-bottom: 10px; color: #000000; }
+
+    /* STAKEHOLDERS */
+    .stakeholders-box { background: #f8fafc; border: 1px solid #e2e8f0; padding: 20px; border-radius: 6px; margin-bottom: 35px; }
+    .stakeholders-title { text-align: center; font-weight: 800; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 15px; }
+    .stakeholders-table { width: 100%; max-width: 650px; margin: 0 auto; border-collapse: collapse; font-size: 0.9rem; }
+    .stakeholders-table td { padding: 6px 10px; }
+    .stakeholders-table td:first-child { font-weight: 600; color: #1e293b; }
+    .stakeholders-table td:last-child { text-align: right; font-weight: 700; color: #1d4ed8; }
+
+    /* FOOTER */
+    footer { background: #000000; color: #ffffff; padding: 20px 5%; font-size: 0.85rem; line-height: 1.8; margin-top: 40px; }
+
+    @media (max-width: 768px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      header { flex-direction: column; height: auto; padding: 15px; }
+      .nav-links { margin-top: 10px; flex-wrap: wrap; justify-content: center; }
+      body { padding-top: 110px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand-logo">EDSA-infoNET</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="major_features.html">Major Features</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- WELCOME HERO -->
+    <section class="hero-section">
+      <h1 class="hero-title">WELCOME TO EDSA</h1>
+      <p class="hero-desc">The Electricity Distribution and Supply Authority (EDSA) is mainly responsible for the supply, distribution, and retail sale of electricity in Sierra Leone.</p>
+      <a href="services.html" class="btn-black">Get Started</a>
+    </section>
+
+    <!-- RECENT PROGRESS BANNER -->
+    <div class="banner-dark">
+      <h2>Recent progress reports over the years</h2>
+    </div>
+
+    <div class="grid-2">
+      <ol class="list-numbered">
+        <li><strong>Meter Installation:</strong> Over 85% of connected grid customers now use prepaid meters, significantly improving revenue collection and billing accuracy.</li>
+        <li><strong>National Power Supply:</strong> Electricity access stands at ~30–35% nationally (~50% in urban centers like Freetown and under 5% in rural areas).</li>
+        <li><strong>Future Expansion Plans:</strong> Leveraging the $480M MCC Compact to upgrade Freetown's grid infrastructure.</li>
+        <li><strong>Regional Power Line:</strong> Utilizing the CLSG Regional Power Line to import reliable cross-border energy.</li>
+        <li><strong>Rural Mini-Grids:</strong> Expanding rural solar mini-grids to reach 78% national electricity access by 2030.</li>
+      </ol>
+      <div>
+        <div class="img-box" style="margin-bottom: 15px;">
+          <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="African Black Engineers on Duty">
+        </div>
+        <div class="img-box">
+          <img src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80" alt="EDSA Technician Inspection">
+        </div>
+      </div>
+    </div>
+
+    <!-- WHAT WE DO -->
+    <h2 class="section-header">WHAT WE DO</h2>
+    <div class="grid-3">
+      <div>
+        <div class="card-title">Mandate</div>
+        <div class="img-box">
+          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=400&q=80" alt="EDSA Leadership Mandate">
+        </div>
+      </div>
+      <div>
+        <div class="card-title">Mission</div>
+        <div class="img-box">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="EDSA Mission Team">
+        </div>
+      </div>
+      <div>
+        <div class="card-title">Vision</div>
+        <div class="img-box">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80" alt="African Engineers Planning Vision">
+        </div>
+      </div>
+    </div>
+
+    <!-- STAKEHOLDERS -->
+    <div class="stakeholders-box">
+      <div class="stakeholders-title">STAKEHOLDERS</div>
+      <table class="stakeholders-table">
+        <tr><td>1. Ing. Philip Karimu Lansana</td><td>BOARD CHAIRMAN</td></tr>
+        <tr><td>2. Mr. Festus B. Kallay</td><td>DIRECTOR GENERAL</td></tr>
+        <tr><td>3. Ing. Henry Emmanuel Baio</td><td>COMMISSIONER</td></tr>
+        <tr><td>4. Mr. Edward Komeh</td><td>COMMISSIONER</td></tr>
+        <tr><td>5. Madam Mary A. M. Rogers</td><td>COMMISSIONER</td></tr>
+        <tr><td>6. Mr. Joseph Samu Bockarie</td><td>COMMISSIONER</td></tr>
+        <tr><td>7. Mrs. Nellista L. Stack-Davies</td><td>COMMISSIONER</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <div>Contact: +23278908456</div>
+    <div>Email: Edsa.net@gmail.com</div>
+    <div>Location: 36 Siaka Stevens Street, Freetown.</div>
+  </footer>
+
+</body>
+</html>
