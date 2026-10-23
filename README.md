@@ -45,13 +45,14 @@ Contact Us (contact.html)
 ![EDSA_INFONET About Page](Screenshots/About.png.jpeg)
 
 ### 3. services Page
-![EDSA_INFONET Services Page](Screenshots/Services.png.jpeg)
+![EDSA_INFONET Services Page](Screenshots/services.png.jpeg)
 
 ### 4. contact Page
-![EDSA_INFONET Contact Page](Screenshots/Contact.png.jpeg)
+![EDSA_INFONET Contact Page](Screenshots/contact.png.jpeg)
 
-### 5. Major Page
-![EDSA_INFONET major features Page](Screenshot/major features.png.jpeg)
+### 5. Major_features Page
+![EDSA_INFONET major_features Page](Screenshots/major_features.png.jpeg)
+
 Full contact submission form for customer inquiries.
 Verified contact channels including toll-free lines, WhatsApp, email, and physical office location at 36 Siaka Stevens Street, Freetown.
 Customer care officer directory.
