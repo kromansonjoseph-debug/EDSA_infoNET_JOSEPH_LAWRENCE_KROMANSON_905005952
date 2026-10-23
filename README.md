@@ -39,16 +39,16 @@ Contact Us (contact.html)
 ## EDSA_INFONET Website Screenshots
 
 ### 1. Home Page
-![EDSA_INFONET Home Page](Screenshot/Home.png.jpeg)
+![EDSA_INFONET Home Page](Screenshots/Home.png.jpeg)
 
 ### 2. About Page
-![EDSA_INFONET About Page](Screenshot/About.png.jpeg)
+![EDSA_INFONET About Page](Screenshots/About.png.jpeg)
 
 ### 3. services Page
-![EDSA_INFONET Services Page](Screenshot/Services.png.jpeg)
+![EDSA_INFONET Services Page](Screenshots/Services.png.jpeg)
 
 ### 4. contact Page
-![EDSA_INFONET Contact Page](Screenshot/Contact.png.jpeg)
+![EDSA_INFONET Contact Page](Screenshots/Contact.png.jpeg)
 
 ### 5. Major Page
 ![EDSA_INFONET major features Page](Screenshot/major features.png.jpeg)
