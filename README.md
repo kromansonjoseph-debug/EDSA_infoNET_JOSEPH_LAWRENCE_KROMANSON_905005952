@@ -35,6 +35,23 @@ Services (services.html)
 Meter tier options: Single-Phase Residential (Le 2,500), Three-Phase Commercial (Le 3,500), and Industrial (Le 4,500).
 Pure CSS modal forms for meter purchasing, maintenance dispatch, and account name/ownership transfers.
 Contact Us (contact.html)
+
+## EDSA_INFONET Website Screenshots
+
+### 1. Home Page
+![EDSA_INFONET Home Page](Screenshot/home.png)
+
+### 2. About Page
+![EDSA_INFONET About Page](Screenshot/explore.png)
+
+### 3. services Page
+![EDSA_INFONET Services Page](Screenshot/about.png)
+
+### 4. contact Page
+![EDSA_INFONET Contact Page](Screenshot/services.png)
+
+### 5. Major Page
+![EDSA_INFONET major features Page](Screenshot/contact.png)
 Full contact submission form for customer inquiries.
 Verified contact channels including toll-free lines, WhatsApp, email, and physical office location at 36 Siaka Stevens Street, Freetown.
 Customer care officer directory.
